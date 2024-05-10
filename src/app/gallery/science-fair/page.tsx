@@ -1,33 +1,19 @@
 import ImageGallery from '@/components/ImageGallery';
-import fs from 'fs';
-import path from 'path';
 
-const directoryPath = './public/images';
+import getDirImages from '@/utils/getDirImages';
+import { GalleryImagesDirectories } from '@/utils/constants'
 
-const getImages = () => {
-  const files = fs.readdirSync(directoryPath);
+const images = getDirImages(GalleryImagesDirectories.SCIENCE_FAIR);
 
-  const imageFiles = files.filter(
-    (file) =>
-      path.extname(file).toLowerCase() === '.jpg' ||
-      path.extname(file).toLowerCase() === '.png'
-  );
-
-  return imageFiles;
-};
-
-const images = getImages().map((img) => ({
-  src: `/images/${img}`,
-}));
-
-const Gallery = ({ value }) => {
+const Gallery = () => {
   return (
     <>
-
-      <ImageGallery images={images} />
+      <div>
+        <div>Science Fair</div>
+        <ImageGallery images={images} />
+      </div>
     </>
   );
 };
-
 
 export default Gallery;
