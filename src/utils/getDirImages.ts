@@ -14,4 +14,5 @@ const getDirImages = (directoryPath: string) => {
   return imageFiles;
 }
 
+
 export default getDirImages;
