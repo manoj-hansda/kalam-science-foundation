@@ -2,7 +2,7 @@ const AeromodellingWorkshops = () => {
   return (
     <>
       
-      
+      <div className="text-justify">
       <h1 className="text-xl font-medium text-teal">Aeromodelling Workshops</h1>
 
       <p className="mt-10">
@@ -55,6 +55,7 @@ const AeromodellingWorkshops = () => {
         <li>• To assist and support the development of the aeromodelling hobby through joint
         training programs.</li>
       </ul>
+      </div>
     </>
   );
 };

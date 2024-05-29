@@ -2,7 +2,7 @@ const CareerGuidance = () => {
   return (
     <>
 
-    
+    <div className="text-justify">
       <h1 className="text-xl font-medium text-teal">Career Guidance</h1>
       <p className="mt-10">
         In India, career guidance often comes from our parents, friends and
@@ -58,6 +58,7 @@ const CareerGuidance = () => {
             get to present yourself as an asset to the potential contacts.
           </li>
         </ul>
+        </div>
 
     </>
   );

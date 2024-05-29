@@ -23,6 +23,10 @@ const NavigationLinks = [
     path: '/founders-desk'
   },
   {
+    name: 'Donate',
+    path: '/donate'
+  },
+  {
     name: "Contact",
     path: "/contact",
   },
