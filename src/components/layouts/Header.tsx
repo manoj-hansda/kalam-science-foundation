@@ -14,7 +14,7 @@ const Header = () => {
           </div>
         </div>
         <div>
-          <blockquote className="text-3xl italic font-semibold text-center md:mr-56">
+          <blockquote className="text-3xl italic font-semibold text-center mt-10 md:mr-56 md:mt-0">
             &quot;Inspiring People&quot;
           </blockquote>
         </div>

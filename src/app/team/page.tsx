@@ -13,8 +13,8 @@ const Team = () => {
 
   return (
     <>
-      <div className="flex gap-10">
-        <div className="border" style={{ width: '25%' }}>
+      <div className="grid grid-cols-2 gap-10">
+        <div className="border">
           <Link href="/team/founding-members">
             <img
               src="images/founding members.jpeg"
@@ -29,7 +29,7 @@ const Team = () => {
 
         <div
           className="border"
-          style={{ width: '25%' }}
+        
           onClick={handleViewChange('advisors')}
         >
           <img
@@ -45,7 +45,7 @@ const Team = () => {
 
         <div
           className="border"
-          style={{ width: '25%' }}
+        
           onClick={handleViewChange('members')}
         >
           <img
@@ -58,7 +58,7 @@ const Team = () => {
 
         <div
           className="border"
-          style={{ width: '25%' }}
+        
           onClick={handleViewChange('volunteers')}
         >
           <img

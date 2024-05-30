@@ -43,11 +43,9 @@ export default function Home() {
       <section className="py-10">
         <h1 className="text-xl font-medium text-center text-teal">Mission</h1>
         <div className="md:flex mt-10 gap-10">
-          <img
-            src="images/Abdul Kalam Quote.jpeg"
-            width="50%"
-            className="mx-auto"
-          />
+          <div className="w-full">
+            <img src="images/Abdul Kalam Quote.jpeg" className="mx-auto" />
+          </div>
           <p className="leading-10 text-justify">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis,
             optio autem eligendi temporibus magni et ab alias voluptas, atque ea
@@ -62,7 +60,7 @@ export default function Home() {
       </h1>
 
       <iframe
-        width="600"
+        width="100%"
         height="315"
         src="https://www.youtube.com/embed/UX5cgiaEGMQ?si=4LMvLQgqaViFdpVT"
         title="YouTube video player"
