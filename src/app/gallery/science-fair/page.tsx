@@ -9,8 +9,11 @@ const Gallery = () => {
   return (
     <>
       <div>
-        <div>Science Fair</div>
-        <ImageGallery images={images} />
+        <h1 className="text-lg text-teal font-medium">Science Fair</h1>
+
+        <div className="mt-10">
+          <ImageGallery images={images} />
+        </div>
       </div>
     </>
   );
