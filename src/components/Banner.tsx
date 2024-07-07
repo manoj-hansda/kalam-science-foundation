@@ -40,9 +40,11 @@ const Banner = () => {
             <div
               style={{
                 backgroundImage: `url(${img})`,
-                height: '500px',
-
                 width: '100%',
+                maxWidth: '1000px',
+                height: '100vw',
+                maxHeight: '600px',
+                margin: 'auto',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}

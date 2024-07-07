@@ -34,13 +34,13 @@ const NavigationLinks = [
 const Navigation = () => {
   return (
     <div className="bg-blue py-2">
-      <ul className="max-w-6xl mx-auto md:flex justify-evenly text-center text-teal leading-10">
+      <ul className="max-w-6xl mx-auto md:flex justify-evenly text-center leading-10">
         {NavigationLinks.map((item) => (
           <MenuLink key={item.name} item={item} />
         ))}
       </ul>
     </div>
-  )
+  );
 }
 
 const MenuLink = (props: { item: { name: string, path: string } }) => {
