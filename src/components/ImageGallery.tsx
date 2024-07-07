@@ -18,7 +18,12 @@ const ImageGallery = ({ images }: { images: { src: string }[] }) => {
       <LightGallery onInit={onInit} speed={500} plugins={[lgThumbnail, lgZoom]}>
         {images.map((img) => (
           <a key={img.src} href={img.src}>
-            <img alt="img1" src={img.src} style={{ display: 'initial', width: 300, height: 300 }} />
+            <img
+              alt="img1"
+              src={img.src}
+              className="m-1"
+              style={{ display: 'initial', width: 300, height: 300 }}
+            />
           </a>
         ))}
       </LightGallery>

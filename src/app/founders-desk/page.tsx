@@ -1,9 +1,12 @@
 const FoundersDeskScreen = () => {
   return (
     <>
-      <div className="flex">
-        <img src="images/founder2.jpeg" style={{ width: '50%' }} />
-        <img src="images/founder1.jpeg" style={{ width: '50%' }} />
+      <div>
+        <img
+          src="images/founder_desk.jpeg"
+          className="m-auto"
+          style={{ width: '40%' }}
+        />
       </div>
 
       <p className="leading-10 mt-10 text-justify" style={{ textIndent: 100 }}>

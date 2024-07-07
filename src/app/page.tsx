@@ -19,7 +19,7 @@ export default function Home() {
       </section>
 
       <section className="py-10">
-        <h1 className="text-xl font-medium text-center text-teal">Vision</h1>
+        <h1 className="text-2xl font-medium text-center text-teal">Vision</h1>
         <div className="md:flex mt-10 gap-10">
           <p className="leading-10 text-justify">
             &quot;To democratize access to quality science education and
@@ -41,21 +41,60 @@ export default function Home() {
       </section>
 
       <section className="py-10">
-        <h1 className="text-xl font-medium text-center text-teal">Mission</h1>
+        <h1 className="text-2xl font-medium text-center text-teal">Mission</h1>
+        <div className="mt-10">
+          <img
+            src="images/Abdul Kalam Quote.jpeg"
+            className="mx-auto"
+            style={{
+              width: '50%',
+            }}
+          />
+        </div>
         <div className="md:flex mt-10 gap-10">
-          <div className="w-full">
-            <img src="images/Abdul Kalam Quote.jpeg" className="mx-auto" />
-          </div>
           <p className="leading-10 text-justify">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis,
-            optio autem eligendi temporibus magni et ab alias voluptas, atque ea
-            unde ad praesentium ducimus adipisci repudiandae quaerat rem esse.
-            Ipsa!
+            KALAM Science Foundation-INDIA, is committed to Serve the Nation.
+            The thought of our Founder, “Endeavour towards Educate, Enrich and
+            Empowering Bharat” is the Mission of the Organization. Empowering
+            Bharat, or India, entails fostering an environment where all
+            citizens have the opportunity to contribute to the nation's
+            progress. This empowerment encompasses enhancing education,
+            healthcare, and employment opportunities, particularly for
+            marginalized communities. By promoting awareness in rural areas,
+            promoting digital literacy, entrepreneurial initiatives, and gender
+            equality, India can harness the diverse talents of its people to
+            drive innovation and economic growth. KSF-INDIA, is about creating
+            an inclusive society where every individual can thrive, thereby
+            strengthening the nation's democratic foundations and securing a
+            prosperous future for all.
+            <br />
+            KSF-INDIA is committed to help the needy by providing support,
+            resources, and care to individuals and communities facing hardships.
+            It signifies the act of extending a helping hand to those who are
+            struggling with poverty, hunger, homelessness, educational support,
+            rural development initiatives, Hands on Activities, Women
+            Empowerment and other forms of adversity. By offering financial aid,
+            food, shelter, education, and emotional support, we can make a
+            significant difference in their lives and foster a sense of hope and
+            dignity. Helping the needy is not just about charity; it is about
+            empowering them to overcome challenges and achieve self-sufficiency.
+            This humanitarian effort promotes social equity, strengthens
+            community bonds, and reflects the values of empathy, kindness, and
+            solidarity in society.
+            <br />
+            KSF-INDIA's profound and honorable commitment that encompasses
+            various forms of dedication and sacrifice for the greater good of
+            the country. It involves selfless acts by individuals who contribute
+            to the welfare, security, and progress of the nation through diverse
+            roles for public, community service, and civic engagement. It
+            requires a deep sense of patriotism, integrity, and responsibility,
+            fostering unity and resilience among citizens. KSF-INDIA is
+            committed to the country's values and future.
           </p>
         </div>
       </section>
 
-      <h1 className="text-xl font-medium text-center text-teal">
+      <h1 className="text-2xl font-medium text-center text-teal">
         Failure To Success Story: Kalam Sir
       </h1>
 
@@ -72,7 +111,7 @@ export default function Home() {
       ></iframe>
 
       <section className="py-10">
-        <h1 className="text-xl font-medium text-center text-teal">
+        <h1 className="text-2xl font-medium text-center text-teal">
           Our Services
         </h1>
 
@@ -99,7 +138,7 @@ export default function Home() {
       </section>
 
       <div className="mt-10">
-        <a href="/Membership-Form.pdf" download="membership_form.pdf">
+        <a href="/Membership_Form.pdf" download="membership_form.pdf">
           <button className="block bg-teal text-white p-5 m-auto">
             Become a Member
           </button>

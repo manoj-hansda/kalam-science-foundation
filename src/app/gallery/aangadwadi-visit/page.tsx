@@ -3,7 +3,7 @@ import ImageGallery from '@/components/ImageGallery';
 import getDirImages from '@/utils/getDirImages';
 import { GalleryImagesDirectories } from '@/utils/constants'
 
-const images = getDirImages(GalleryImagesDirectories.ANATHASHRAM_VISIT);
+const images = getDirImages(GalleryImagesDirectories.AANGADWADI_VISIT);
 
 const Gallery = () => {
   return (

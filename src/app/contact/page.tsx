@@ -45,21 +45,16 @@ const Contact = () => {
           Pin- 226010
           <br />
         </p>
-        <p className="mt-10">
-          Delhi
-        </p>
-        <p className="mt-10">
-          Bihar
-        </p>
-        <p className="mt-10">
-          Haryana
-        </p>
-        <p className="mt-10">
-          Uttrakhand
-        </p>
+        <p className="mt-10">Delhi</p>
+        <p className="mt-10">Bihar</p>
+        <p className="mt-10">Haryana</p>
+        <p className="mt-10">Uttrakhand</p>
 
         <p className="mt-10">
-          Jharkhand
+          Jharkhand: <br />
+          Plot No. 1100 <br />
+          Mohulishol Chowk, Choira <br />
+          Dhalbhumgarh - 832302 <br />
         </p>
       </div>
 
