@@ -57,7 +57,7 @@ export default function Home() {
             The thought of our Founder, “Endeavour towards Educate, Enrich and
             Empowering Bharat” is the Mission of the Organization. Empowering
             Bharat, or India, entails fostering an environment where all
-            citizens have the opportunity to contribute to the nation's
+            citizens have the opportunity to contribute to the nation&apos;s
             progress. This empowerment encompasses enhancing education,
             healthcare, and employment opportunities, particularly for
             marginalized communities. By promoting awareness in rural areas,
@@ -65,8 +65,8 @@ export default function Home() {
             equality, India can harness the diverse talents of its people to
             drive innovation and economic growth. KSF-INDIA, is about creating
             an inclusive society where every individual can thrive, thereby
-            strengthening the nation's democratic foundations and securing a
-            prosperous future for all.
+            strengthening the nation&apos;s democratic foundations and securing
+            a prosperous future for all.
             <br />
             KSF-INDIA is committed to help the needy by providing support,
             resources, and care to individuals and communities facing hardships.
@@ -82,14 +82,14 @@ export default function Home() {
             community bonds, and reflects the values of empathy, kindness, and
             solidarity in society.
             <br />
-            KSF-INDIA's profound and honorable commitment that encompasses
+            KSF-INDIA&apos;s profound and honorable commitment that encompasses
             various forms of dedication and sacrifice for the greater good of
             the country. It involves selfless acts by individuals who contribute
             to the welfare, security, and progress of the nation through diverse
             roles for public, community service, and civic engagement. It
             requires a deep sense of patriotism, integrity, and responsibility,
             fostering unity and resilience among citizens. KSF-INDIA is
-            committed to the country's values and future.
+            committed to the country&apos;s values and future.
           </p>
         </div>
       </section>
