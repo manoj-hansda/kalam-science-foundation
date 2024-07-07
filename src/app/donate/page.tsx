@@ -8,7 +8,7 @@ const Donate = () => {
           <ul>
             <li>Bank Name: Union Bank of India</li>
             <li>
-              Account No: <strong>79721010000076</strong>
+              Account No: <strong>079721010000076</strong>
             </li>
             <li>IFSC: UBIN0907979</li>
             <li>Branch: Coffee Board Layout</li>

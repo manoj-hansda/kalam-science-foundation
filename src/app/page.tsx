@@ -51,7 +51,7 @@ export default function Home() {
             }}
           />
         </div>
-        <div className="md:flex mt-10 gap-10">
+        <div className="mt-10">
           <p className="leading-10 text-justify">
             KALAM Science Foundation-INDIA, is committed to Serve the Nation.
             The thought of our Founder, “Endeavour towards Educate, Enrich and
@@ -67,7 +67,8 @@ export default function Home() {
             an inclusive society where every individual can thrive, thereby
             strengthening the nation&apos;s democratic foundations and securing
             a prosperous future for all.
-            <br />
+          </p>
+          <p className="leading-10 text-justify" style={{ textIndent: 100 }}>
             KSF-INDIA is committed to help the needy by providing support,
             resources, and care to individuals and communities facing hardships.
             It signifies the act of extending a helping hand to those who are
@@ -81,7 +82,9 @@ export default function Home() {
             This humanitarian effort promotes social equity, strengthens
             community bonds, and reflects the values of empathy, kindness, and
             solidarity in society.
-            <br />
+          </p>
+          <br />
+          <p className="leading-10 text-justify" style={{ textIndent: 100 }}>
             KSF-INDIA&apos;s profound and honorable commitment that encompasses
             various forms of dedication and sacrifice for the greater good of
             the country. It involves selfless acts by individuals who contribute
